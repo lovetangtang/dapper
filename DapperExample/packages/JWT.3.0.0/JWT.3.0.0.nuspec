@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>JWT</id>
+    <version>3.0.0</version>
+    <title>JWT</title>
+    <authors>John Sheehan, Michael Lehenbauer, Alexander Batishchev</authors>
+    <owners>John Sheehan, Michael Lehenbauer, Alexander Batishchev</owners>
+    <licenseUrl>https://creativecommons.org/publicdomain/zero/1.0/</licenseUrl>
+    <projectUrl>https://github.com/jwt-dotnet/jwt</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Jwt.Net, a JWT (JSON Web Token) implementation for .NET</description>
+    <summary />
+    <copyright>Public Domain</copyright>
+    <tags>jwt json</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="Newtonsoft.Json" version="10.0.2" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="Newtonsoft.Json" version="10.0.2" />
+        <dependency id="System.Security.Cryptography.Csp" version="4.3.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

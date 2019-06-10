@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Dapper.Extension</id>
+    <version>1.0.0.1</version>
+    <title>Dapper.Extension</title>
+    <authors>m98proxy</authors>
+    <owners>m98proxy</owners>
+    <projectUrl>https://m98proxy.github.io/Dapper.Extension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CRUD extension methods for Dapper</description>
+    <summary>CRUD extension methods for Dapper</summary>
+    <releaseNotes>CRUD extension methods for Dapper
+Work in progress...
+
+If you want to help: https://github.com/m98proxy/Dapper.Extension
+
+1. What we have for now:
+
+Kernel methods for create steatements fashionably;
+Steatement builders for INSERT, SELECT, UPDATE, DELETE;
+List command;
+Unity Test project;</releaseNotes>
+    <copyright>Copyright ©  2016</copyright>
+    <tags>dapper crud extension methods C# ASP.NET .NET simple</tags>
+    <dependencies>
+      <dependency id="Dapper" version="1.42.0" />
+    </dependencies>
+  </metadata>
+</package>
