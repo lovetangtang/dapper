@@ -17,7 +17,7 @@ namespace DapperExample
     public static class DapperSql
     {
         //获取连接字符串
-        public readonly static string sqlconnct = "server=.;database=GridDemo;uid=sa;pwd=123456;MultipleActiveResultSets=True;App=EntityFramework";// ConfigurationManager.AppSettings["strconn"];
+        public readonly static string sqlconnct = "server=.;database=GridDemo;uid=sa;pwd=123456;MultipleActiveResultSets=True;App=EntityFramework";// ConfigurationManager.AppSettings["strconn"]; 
         //初始化连接对象
         public static SqlConnection conn = new SqlConnection(sqlconnct);
         public static SqlConnection getCon()
